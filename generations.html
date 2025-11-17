@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поколения ЭВМ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #1f4b99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #163a75;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+        .generation {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .generation img {
+            width: 200px;
+            float: right;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        .diagram {
+            background: #e0e7ff;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1f4b99;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Поколения ЭВМ</h1>
+</header>
+
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="mechanical.html">Механические устройства</a>
+    <a href="electro.html">Электромеханические устройства</a>
+    <a href="generations.html">Поколения ЭВМ</a>
+    <a href="pc.html">Персональные компьютеры</a>
+</nav>
+
+<div class="container">
+    <h2>Эволюция компьютеров по поколениям</h2>
+
+    <div class="generation">
+        <h3 title="Вакуумные лампы — электронные лампы, которые использовались для усиления и генерации сигналов">Первое поколение (1940–1955)</h3>
+        <img src="images/eniac.webp" alt="ENIAC">
+        <p>Использовали вакуумные лампы. Примеры: ENIAC (создатели: Джон Мокли и Преспер Эккерт), UNIVAC. Машины были огромными и потребляли много энергии. ENIAC весил 27 тонн.</p>
+    </div>
+
+    <div class="generation">
+        <h3 title="Транзисторы — полупроводниковые устройства, заменившие вакуумные лампы">Второе поколение (1955–1965)</h3>
+        <img src="images/ibm1401.webp" width="100" height="120" alt="IBM 1401">
+        <p>Появление транзисторов. Примеры: IBM 1401, PDP-1. Машины стали быстрее, надёжнее, уменьшился размер и энергопотребление. Создатели IBM 1401: Джон Стиби и команда IBM.</p>
+    </div>
+
+    <div class="generation">
+        <h3 title="Интегральные схемы — миниатюрные электронные компоненты, содержащие множество транзисторов">Третье поколение (1965–1975)</h3>
+        <img src="images/ibm_system360.webp" width="100" height="120" alt="IBM System/360">
+        <p>Использование интегральных схем. Примеры: IBM System/360. Компьютеры стали массовыми, появилась поддержка языков высокого уровня. Главный разработчик: Фредерик Брукс.</p>
+    </div>
+
+    <div class="generation">
+        <h3 title="Микропроцессоры — процессоры на одной микросхеме">Четвёртое поколение (1975–1990)</h3>
+        <img src="images/apple1.avif" alt="Apple I">
+        <p>Микропроцессоры. Появление персональных компьютеров: Altair 8800, Apple I, IBM PC. Основатели Apple: Стив Джобс и Стив Возняк. Увеличилась доступность компьютеров для широкого круга пользователей.</p>
+    </div>
+
+    <div class="generation">
+        <h3 title="Современные компьютеры с параллельной обработкой и облачными технологиями">Пятое поколение (1990–настоящее время)</h3>
+        <div class="diagram">
+            <p>Современные компьютеры, параллельные вычисления, искусственный интеллект, облачные технологии, мобильные устройства.</p>
+            <p>Примеры: современные ПК, смартфоны, суперкомпьютеры.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    © 2025 История вычислительной техники
+</footer>
+</body>
+</html>

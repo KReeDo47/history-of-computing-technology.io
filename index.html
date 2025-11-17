@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История вычислительной техники</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #1f4b99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #163a75;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 10px;
+        }
+        .timeline-item {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            background: #e0e7ff;
+            border-radius: 8px;
+            margin: 0 5px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .timeline-item:hover {
+            transform: scale(1.05);
+            background: #c7d2fe;
+        }
+        .fact {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 10px;
+            margin: 15px 0;
+            font-style: italic;
+        }
+        .illustrations {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .illustrations img {
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1f4b99;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+    <script>
+        function goToPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</head>
+<body>
+<header>
+    <h1>История вычислительной техники</h1>
+</header>
+
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="mechanical.html">Механические устройства</a>
+    <a href="electro.html">Электромеханические устройства</a>
+    <a href="generations.html">Поколения ЭВМ</a>
+    <a href="pc.html">Персональные компьютеры</a>
+</nav>
+
+<div class="container">
+    <h2>Добро пожаловать!</h2>
+    <p>Этот сайт посвящён развитию вычислительной техники от древнейших инструментов до современных компьютеров. Здесь вы сможете проследить путь эволюции технологий, узнать о важнейших изобретениях и людях, которые внесли вклад в создание вычислительных машин.</p>
+
+    <div class="illustrations">
+        <img src="images/abak.jpg" alt="Абак">
+        <img src="images/lamps_computer.jpg" alt="Ламповый компьютер">
+        <img src="images/modern_pc.jpg" alt="Современный ПК">
+    </div>
+
+    <div class="fact">
+        «Первый электронный компьютер ENIAC весил 27 тонн.»
+    </div>
+
+    <h3>Основные этапы развития</h3>
+    <div class="timeline">
+        <div class="timeline-item" onclick="goToPage('mechanical.html')">Древние и механические устройства</div>
+        <div class="timeline-item" onclick="goToPage('electro.html')">Электромеханические устройства</div>
+        <div class="timeline-item" onclick="goToPage('generations.html')">Поколения ЭВМ</div>
+        <div class="timeline-item" onclick="goToPage('pc.html')">Персональные компьютеры</div>
+    </div>
+</div>
+
+<footer>
+    © 2025 История вычислительной техники
+</footer>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персональные компьютеры</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #1f4b99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #163a75;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .device {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+        .device img {
+            width: 200px;
+            margin-right: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #e0e7ff;
+        }
+        .slider {
+            margin: 20px 0;
+            text-align: center;
+            background: #e0e7ff;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .history {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 10px;
+            margin: 15px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1f4b99;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Персональные компьютеры</h1>
+</header>
+
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="mechanical.html">Механические устройства</a>
+    <a href="electro.html">Электромеханические устройства</a>
+    <a href="generations.html">Поколения ЭВМ</a>
+    <a href="pc.html">Персональные компьютеры</a>
+</nav>
+
+<div class="container">
+    <h2>Эволюция персональных компьютеров</h2>
+
+    <div class="device">
+        <img src="images/apple1.jpg" alt="Apple I">
+        <div>
+            <h3>Apple I</h3>
+            <p>Первый компьютер компании Apple, созданный Стивом Возняком в 1976 году. Продавался в виде набора компонентов и стал важной вехой в развитии ПК.</p>
+        </div>
+    </div>
+
+    <div class="device">
+        <img src="images/ibmpc.jpg" alt="IBM PC">
+        <div>
+            <h3>IBM PC</h3>
+            <p>Выпущенный в 1981 году ПК от IBM стал стандартом индустрии, сформировав архитектуру, которая используется и сегодня.</p>
+        </div>
+    </div>
+
+    <div class="device">
+        <img src="images/laptop_modern.jpg" alt="Современный ноутбук">
+        <div>
+            <h3>Современные ноутбуки</h3>
+            <p>Энергоэффективные, лёгкие и мощные ноутбуки стали основными персональными устройствами в XXI веке.</p>
+        </div>
+    </div>
+
+    <h3>Сравнительная таблица популярных ПК</h3>
+    <table>
+        <tr>
+            <th>Модель</th>
+            <th>Процессор</th>
+            <th>ОЗУ</th>
+            <th>Год выпуска</th>
+        </tr>
+        <tr>
+            <td>Altair 8800</td>
+            <td>Intel 8080</td>
+            <td>256 байт</td>
+            <td>1975</td>
+        </tr>
+        <tr>
+            <td>Apple II</td>
+            <td>MOS 6502</td>
+            <td>4–48 КБ</td>
+            <td>1977</td>
+        </tr>
+        <tr>
+            <td>IBM PC</td>
+            <td>Intel 8088</td>
+            <td>16–640 КБ</td>
+            <td>1981</td>
+        </tr>
+    </table>
+
+
+    <div class="history">
+        <h3>Истории успеха компаний</h3>
+        <p><strong>Apple</strong> начала как гаражный стартап и стала одним из лидеров индустрии благодаря инновациям и дизайну.</p>
+        <p><strong>IBM</strong> задала стандарты аппаратной архитектуры, определив развитие рынка ПК на десятилетия.</p>
+        <p><strong>Microsoft</strong> создала операционную систему для IBM PC, что привело к её доминированию на рынке ПО.</p>
+    </div>
+</div>
+
+<footer>
+    © 2025 История вычислительной техники
+</footer>
+</body>
+</html>
